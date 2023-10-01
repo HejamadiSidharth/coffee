@@ -1,0 +1,195 @@
+header {
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    /* Add more styles as needed */
+}
+
+header img {
+    width: 35px;
+    height: auto;
+    border-radius: 10px;
+    /* Add more styles as needed */
+}
+
+header h1 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
+    padding-left: 10px;
+    /* Add more styles as needed */
+}
+header div {
+    margin: 20px 360px;
+}
+
+.subtitles {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+    padding-left: 20px;
+    align-items: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.butt {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+
+    /* Add more styles as needed */
+}
+
+
+
+.buttnew {
+    
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-left: 0px;
+        cursor: pointer;
+        /* Add more styles as needed */
+    
+}
+
+.buttnew:hover {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 0px;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.buttneww{
+    background-color: white;
+    border: #FF6154 solid 1px;
+    color: #FF6154;
+    stroke-width: 1px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 0px;
+    cursor: pointer;
+
+}
+
+.buttneww:hover{
+    background-color: white;
+    border: #FF6154 solid 1px;
+    color: #FF6154;
+    stroke-width: 1px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 0px;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+
+header button:hover {
+    background-color: #555;
+}
+
+.box {
+    background-color: white;
+    padding: 10px;
+    /* Add more styles as needed */
+}
+
+.title {
+background-color: white;
+display: flex;
+width: 1152px;
+padding: 0px 60px;
+flex: auto;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+}
+
+.t {
+    font-family: Arial, sans-serif;
+    font-size: 80px;
+    color: #333;
+    inline-size: 600px;
+    overflow-wrap: break-word;
+    line-height: 70px;
+    font-weight: 800;
+
+    
+    /* Add more styles as needed */
+}
+
+.boxxy {
+    margin: 40px 60px;
+}
+
+.div-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    /* Add more styles as needed */
+}
+
+.text-rainbow-animation {
+    font-family:arial black;
+    font-size:70px;
+    background-image: 
+    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    animation: rainbow-animation 1000s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}
+
+.fade-in {
+    animation: fadeInAnimation 3s ease-in forwards;
+    opacity: 0;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
